@@ -148,10 +148,10 @@ export default function CommunityComponent() {
     }
 
     const handleShare = async (post) => {
-        const shareText = `"${post.content}" — Anonymous, Lumina Community`
+        const shareText = `"${post.content}" — Anonymous, NeuroSync Community`
         if (navigator.share) {
             try {
-                await navigator.share({ title: 'Lumina Community', text: shareText })
+                await navigator.share({ title: 'NeuroSync Community', text: shareText })
             } catch (e) { /* cancelled */ }
         } else {
             try {

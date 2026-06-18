@@ -111,7 +111,7 @@ export default function Register() {
                             Create <span className="italic text-primary">Account</span>
                         </h1>
                         <p className="text-muted-foreground font-light text-sm">
-                            Join Lumina and start your journey to peace.
+                            Join NeuroSync and start your journey to peace.
                         </p>
                     </div>
 

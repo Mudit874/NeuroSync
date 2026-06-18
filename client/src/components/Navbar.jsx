@@ -28,7 +28,7 @@ export default function Navbar() {
 
                 {/* Logo - Serif and Italic like Hero */}
                 <Link to="/" className="flex items-center gap-2 group  bg-white/40 backdrop-blur-md border border-white/20 px-4 py-2 rounded-full shadow-sm">
-                    <span className="font-serif text-2xl italic tracking-tight text-foreground">Lumina</span>
+                    <span className="font-serif text-2xl italic tracking-tight text-foreground">NeuroSync</span>
                 </Link>
 
                 {/* Desktop Menu - Minimal Pill Style */}

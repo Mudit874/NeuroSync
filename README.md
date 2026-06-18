@@ -1,6 +1,6 @@
-# 🌟 Lumina — Digital Mental Health & Psychological Support System
+# 🌟 NeuroSync — Digital Mental Health & Psychological Support System
 
-Lumina is a comprehensive full-stack platform designed to provide accessible mental health support for students in higher education. It connects students with counselors, offers AI-assisted support, and streamlines appointment management through role-based dashboards.
+NeuroSync is a comprehensive full-stack platform designed to provide accessible mental health support for students in higher education. It connects students with counselors, offers AI-assisted support, and streamlines appointment management through role-based dashboards.
 
 ## 🚀 Key Features
 
@@ -43,7 +43,7 @@ Lumina is a comprehensive full-stack platform designed to provide accessible men
 ### 1. Clone the Repository
 ```bash
 git clone <repository_url>
-cd lumina
+cd NeuroSync
 ```
 
 ### 2. Backend Setup

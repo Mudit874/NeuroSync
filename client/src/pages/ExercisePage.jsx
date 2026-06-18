@@ -125,13 +125,13 @@ function JournalExercise({ onClose }) {
     const formatTime = (s) => `${Math.floor(s / 60)}:${(s % 60).toString().padStart(2, "0")}`
 
     const saveEntry = () => {
-        const entries = JSON.parse(localStorage.getItem("lumina-journal") || "[]")
+        const entries = JSON.parse(localStorage.getItem("NeuroSync-journal") || "[]")
         entries.push({
             prompt,
             text,
             date: new Date().toISOString(),
         })
-        localStorage.setItem("lumina-journal", JSON.stringify(entries))
+        localStorage.setItem("NeuroSync-journal", JSON.stringify(entries))
         setIsSaved(true)
         setTimeout(() => setIsSaved(false), 2000)
     }
